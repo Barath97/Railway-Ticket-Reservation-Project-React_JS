@@ -24,7 +24,7 @@ const Register = () => {
                         <input type="password" id="cpassword" name="cpassword" />
                     </div>
                     <button type="submit">Register</button>
-                    Already registered? <a href="../Html/login.html">Sign In</a>
+                    Already registered? <a href="">Sign In</a>
                 </form>
             </div>
         </>

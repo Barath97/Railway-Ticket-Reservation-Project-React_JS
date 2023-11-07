@@ -6,6 +6,7 @@
 
 body {
     font-family: 'serif', 'sans-serif';
+    background-color: #f0f0f0;  
 }
 
 .container {
@@ -13,7 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(96, 96, 121, 0.5), rgba(113, 113, 142, 0.5)), url('../image/paul-vhZe9fd9MRs-unsplash.jpg');
+    background-image: linear-gradient(rgba(96, 96, 121, 0.5), rgba(113, 113, 142, 0.5)), url('../image/Exterior4.png');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -21,48 +22,60 @@ body {
 
 #form {
     width: 400px;
-    background-color: rgba(127, 169, 210, 0.594);
+    background-color: rgba(127, 169, 210, 0.85);  
     border-radius: 5px;
     padding: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
 }
 
 h1 {
     text-align: center;
-    color: black;
-    margin-bottom: 30px;
+    color: #333;  
+    margin-bottom: 20px;  
 }
 
 .input-group {
-    margin-bottom: 15px;
+    margin-bottom: 20px;  
 }
 
 .input-group label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;  
+    font-weight: bold; 
+    color: #333;  
 }
 
-.input-group input {
+.input-group input, .input-group select {
     border-radius: 5px;
     font-size: 16px;
-    padding: 10px;
-    border: 1px solid black;
+    padding: 12px; 
+    border: 1px solid #ccc;  
     width: 100%;
 }
 
 #form button {
     background-color: rgb(137, 156, 212);
-    color: #000;
-    border: 1px solid black;
+    color: #fff; 
+    border: none;  
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 12px 20px;  
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
     width: 100%;
+    transition: background-color 0.3s;  
 }
 
 #form button:hover {
-    background-color: rgb(100, 120, 180);
+    background-color: rgb(100, 120, 180);  
+}
+
+.input-group select option {
+    padding: 5px;
+}
+
+.input-group select:focus, .input-group input:focus {
+    outline: none;
+    border-color: #007bff;
 }

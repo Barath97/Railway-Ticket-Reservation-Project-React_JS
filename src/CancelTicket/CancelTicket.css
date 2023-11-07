@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(96, 96, 121, 0.5), rgba(113, 113, 142, 0.5)), url('../image/paul-vhZe9fd9MRs-unsplash.jpg');
+    background-image: url('../image/Exterior1.png');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -21,7 +21,7 @@ body {
 
 #form {
     width: 400px;
-    background-color: rgba(127, 169, 210, 0.594);
+    background-color: rgba(226, 230, 235, 0.594);
     border-radius: 5px;
     padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

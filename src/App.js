@@ -1,17 +1,34 @@
 import React from 'react';
 import './App.css';
-import Navbar from './NavBar/Navbar';
+import {BrowserRouter,Routes, Route, Link, useNavigate } from 'react-router-dom';
 import BookTicket from './BookTicket/BookTicket';
 import CancelTicket from './CancelTicket/CancelTicket';
-import Login from './LoginPage/Login';
+import Home from './HomePage/Home';
+import AboutUs from './AboutUs/AboutUs';
 import Register from './RegisterPage/Register';
+import Login from './LoginPage/Login';
+import RouteMap from './routeMap/RouteMap';
+
+ 
 
 
 function App() {
   return (
-    <>
-      <BookTicket />
-    </>
+    <div>
+      <BrowserRouter>
+            <div>
+                <Routes>
+                    <Route path="/" element={<Register/>}></Route>
+                    <Route path="/login" element={<Login/>}></Route>
+                    <Route path="/home" element={<Home/>}></Route>
+                    <Route path="/bookTicket" element={<BookTicket/>}></Route>
+                    <Route path="/cancelTicket" element={<CancelTicket/>}></Route>
+                    <Route path="/aboutUs" element={<AboutUs/>}></Route>
+                    <Route path="/routeMap" element={<RouteMap/>}></Route>
+                </Routes>
+            </div>
+          </BrowserRouter>
+    </div>  
   );
 }
 

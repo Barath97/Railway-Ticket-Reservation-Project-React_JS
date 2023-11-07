@@ -1,0 +1,70 @@
+.ExteriorHeading {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: inherit;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(169, 19, 19);
+}
+
+.ME-journy-para {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  font-weight: lighter;
+  padding: 20px;
+  line-height: 24px;
+  display: flex;
+  color: rgb(39, 36, 36);
+}
+
+.photo-gallery {
+  display: flex;
+  padding: 10px;
+  max-width: 400px;
+  max-height: 200px;
+  margin-right: 60px;
+  transition: transform 0.2s;
+}
+
+.down-para {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.list {
+  list-style: disc inside;
+  padding-left: 20px;
+}
+
+.list li {
+  margin: 5px 0;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.photo-gallery img {
+  max-width: 100%;
+  height: auto;
+}
+
+.P1{
+  max-width: 300px;
+  margin-right: 70px;
+}
+
+.T1{
+  text-align: center;
+}
+
+.S4{
+  max-width: 500px;
+  
+}
+
+.P4{
+  margin-left: 80px;
+}

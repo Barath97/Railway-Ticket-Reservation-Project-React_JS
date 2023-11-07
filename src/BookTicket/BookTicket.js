@@ -122,7 +122,6 @@ const BookTicket = () => {
               <option value="20232">20232</option>
               <option value="12567">12567</option>
               <option value="76443">76443</option>
-              <option value="45633">45633</option>
           </select>
           <b style={{color:'red'}}>{formErrors.trainNumber}</b>
         </div>

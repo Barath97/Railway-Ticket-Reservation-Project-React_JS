@@ -6,8 +6,8 @@ function Footer() {
   return (
     <div className='footerClass'>
         <footer>
-        <img src={F2} style={{ width: '100%' }} />
             <img src={footer1} style={{ width: '100%' }} />
+            <img src={F2} style={{ width: '100%' }} />
         </footer>
         
     </div>

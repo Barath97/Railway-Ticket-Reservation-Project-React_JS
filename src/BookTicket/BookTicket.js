@@ -84,7 +84,6 @@ const BookTicket = () => {
     <Navbar />
     <div className="container"> 
       <form id="form" onSubmit={handleSubmit}>
-        <h1>Book Ticket</h1>
         <div className="input-group">
           <label htmlFor="name">Enter Passenger Name</label>
           <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
@@ -120,8 +119,6 @@ const BookTicket = () => {
           <select id="trainNumber" name="trainNumber" value={formData.trainNo} onChange={handleChange}>
               <option value="Select">Select</option>
               <option value="20232">20232</option>
-              <option value="12567">12567</option>
-              <option value="76443">76443</option>
           </select>
           <b style={{color:'red'}}>{formErrors.trainNumber}</b>
         </div>

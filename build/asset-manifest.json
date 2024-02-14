@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e74fb2db.css",
+    "main.js": "/static/js/main.473cff21.js",
+    "static/js/787.b754e1ee.chunk.js": "/static/js/787.b754e1ee.chunk.js",
+    "static/media/MREX.mp4": "/static/media/MREX.c1a15db52f694a4f865f.mp4",
+    "static/media/S3.png": "/static/media/S3.70fb350f2be257e70b62.png",
+    "static/media/S2.png": "/static/media/S2.41f687eb39abd80f8db3.png",
+    "static/media/S4.png": "/static/media/S4.e6acc2694226e1b4a316.png",
+    "static/media/S1.png": "/static/media/S1.34fe60b02b8c156c8eae.png",
+    "static/media/login1.png": "/static/media/login1.0446877eba206119efa7.png",
+    "static/media/HOI.png": "/static/media/HOI.d6f68fafd414f2b0c822.png",
+    "static/media/IS.png": "/static/media/IS.0104b66dc2ca7802ae1c.png",
+    "static/media/JP2.png": "/static/media/JP2.3a13339c7f25989152ee.png",
+    "static/media/IP.png": "/static/media/IP.9e29a1fb97bd98500c0c.png",
+    "static/media/JP3.png": "/static/media/JP3.af30bffb8f648fcbee16.png",
+    "static/media/JP1.png": "/static/media/JP1.f63827a7f1be3ca76859.png",
+    "static/media/Exterior4.png": "/static/media/Exterior4.cc4fd4558c0b7b2b3871.png",
+    "static/media/Exterior3.png": "/static/media/Exterior3.d0157df8c7fdf48ee616.png",
+    "static/media/Exterior1.png": "/static/media/Exterior1.4ba5ae38b96a5b78af5a.png",
+    "static/media/MR-logo.png": "/static/media/MR-logo.a5d47f516aac869c76c8.png",
+    "static/media/F2.png": "/static/media/F2.00381231a21c4b4fd69f.png",
+    "static/media/footer1.png": "/static/media/footer1.d59bcb184ad8f0a47b3c.png",
+    "static/media/T1.png": "/static/media/T1.bb330aec40b442854d01.png",
+    "index.html": "/index.html",
+    "main.e74fb2db.css.map": "/static/css/main.e74fb2db.css.map",
+    "main.473cff21.js.map": "/static/js/main.473cff21.js.map",
+    "787.b754e1ee.chunk.js.map": "/static/js/787.b754e1ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e74fb2db.css",
+    "static/js/main.473cff21.js"
+  ]
+}
